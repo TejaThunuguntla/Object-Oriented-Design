@@ -1,0 +1,33 @@
+//////////////////////////
+// 	Test File	//
+//////////////////////////
+
+#include <stdio>
+#include <"../Test.h">
+
+/* Author : Teja Thunuguntla
+* Computer Engineering
+* Syracuse University */
+
+class Base : pubic class Inherit {
+public:
+int a = 12;
+private:
+char c = 'c';
+protected:
+std::string str = "This is \" str\'";
+float b = 5.02; // Floating */ point value
+
+void print(){
+std::istream << "this \n is string" >> str ;
+}
+
+for(int i; i<= len(); i++){
+if(a==c)
+<>[];
+else if(a != c)
+*=/=\n;
+else
+:;
+}
+!!+=@

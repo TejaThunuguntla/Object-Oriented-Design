@@ -1,0 +1,10 @@
+﻿  TestProj3.cpp
+e:\teja\syracuse university\ood\project3\testproject\testproj3.cpp(6): error C2247: '_Namespace::_class2::func2' not accessible because '_class3' uses 'private' to inherit from '_Namespace::_class2'
+  e:\teja\syracuse university\ood\project3\testproject\testproj1.h(17): note: see declaration of '_Namespace::_class2::func2'
+  e:\teja\syracuse university\ood\project3\testproject\testproj2.h(13): note: see declaration of '_class3'
+  e:\teja\syracuse university\ood\project3\testproject\testproj1.h(11): note: see declaration of '_Namespace::_class2'
+  TestProj2.cpp
+e:\teja\syracuse university\ood\project3\testproject\testproj2.cpp(5): error C2280: '_Namespace::_class1::_class1(void)': attempting to reference a deleted function
+  e:\teja\syracuse university\ood\project3\testproject\testproj1.h(30): note: compiler has generated '_Namespace::_class1::_class1' here
+  TestProj1.cpp
+  Generating Code...

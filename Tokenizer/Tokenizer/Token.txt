@@ -1,0 +1,91 @@
+
+ #
+ include
+ <
+ stdio
+ >
+ newline
+ #
+ include
+ <
+ "../Test.h"
+ >
+ newline
+ newline
+ class
+ Test
+ :
+ public
+ base
+ class
+ {
+ newline
+ private
+ :
+ newline
+ Cfloat
+ b
+ =
+ 5
+ .
+ 02
+ ;
+ // c comment here
+ // 2nd comment
+ newline
+ public
+ :
+ newline
+ char
+ c
+ =
+ '
+ c
+ '
+ ;
+ newline
+ std
+ ::
+ istream
+ <<
+ "this str\t is string"
+ ;
+ newline
+ /* c++ comments 
+ * blah blah
+ * here */
+ newline
+ }
+ ;
+ newline
+ newline
+ for
+ (
+ int
+ i
+ =
+ 0
+ ;
+ i
+ <
+ len
+ (
+ )
+ ;
+ i
+ ++
+ )
+ {
+ }
+ @
+ !
+ =
+ +
+ newline
+ !!
+ +
+ =
+ newline
+ @
+ "ÿ
+

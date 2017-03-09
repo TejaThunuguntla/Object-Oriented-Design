@@ -1,0 +1,63 @@
+﻿  TypeTable.cpp
+  Parser.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1363): warning C4503: '__LINE__Var': decorated name length exceeded, name was truncated
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1363): note: while compiling class template member function 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>> std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>::insert(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>>,unsigned int,const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>> &)'
+          with
+          [
+              _Kty=std::string,
+              _Ty=TypeTable::recrd,
+              _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,TypeTable::recrd>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1353): note: see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>> std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>::insert(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>>,unsigned int,const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>> &)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=TypeTable::recrd,
+              _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,TypeTable::recrd>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xhash(908): note: see reference to class template instantiation 'std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=TypeTable::recrd,
+              _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,TypeTable::recrd>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\unordered_map(86): note: see reference to class template instantiation 'std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=TypeTable::recrd,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,TypeTable::recrd>>
+          ]
+  e:\teja\syracuse university\ood\project3\parser\typetable.h(151): note: see reference to class template instantiation 'std::unordered_map<std::string,TypeTable::recrd,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=TypeTable::recrd
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1684): warning C4503: '__LINE__Var': decorated name length exceeded, name was truncated
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1684): note: while compiling class template member function 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>> std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>::_Insert_n(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>>,unsigned int,const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>> &)'
+          with
+          [
+              _Kty=std::string,
+              _Ty=TypeTable::recrd,
+              _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,TypeTable::recrd>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1364): note: see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>> std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>::_Insert_n(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>>>,unsigned int,const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>> &)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=TypeTable::recrd,
+              _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,TypeTable::recrd>>>>
+          ]
+  ConfigureParser.cpp
+  ActionsAndRules.cpp
+  Utilities.cpp
+  Tokenizer.cpp
+  SemiExp.cpp
+  ScopeStack.cpp
+  FileSystem.cpp
+  Generating Code...
+  Parser.vcxproj -> E:\Teja\Syracuse University\OOD\Project3\Debug\Parser.lib
